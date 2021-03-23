@@ -5,4 +5,5 @@ Before begining, make sure you copy the rpm files in the /root folder on your Co
 All the configuration of important files is done through ansible. 
 After successfull configuration, the namenode is formatted and the namenode and datanode services are started. 
 You can then run the following command, to check the Configured Capacity in the Cluster,
- # hadoop dfsadmin -report 
+
+hadoop dfsadmin -report 
